@@ -1,0 +1,190 @@
+:root {
+    --base-color: rgb(239,231,218);
+    --accent-color: #67abf4;
+    --light-gray: #f8f9fa; /* equiv to Bootstrap's light gray color */
+    --dark-gray: #6c757d;  /* equiv to Bootstrap's secondary color */
+}
+
+.with-base-color {
+    background-color: var(--base-color);
+}
+
+.progress {
+    background-color: var(--dark-gray);
+}
+
+table {
+    background-color: var(--light-gray);
+}
+
+th {
+    font-size: 150%;
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+td {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.expl-table th, .expl-table td {
+    text-align: center;
+}
+
+.page-container {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    height: calc(100vh - 48px);
+    width: 100vw;
+}
+
+.hero-image {
+    max-height: 320px;
+    margin-bottom: 1em;
+}
+
+.play {
+    background-image: url("/static/audio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: 0px 3px -2px 3px;
+}
+
+.play_button {
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
+
+.bordered {
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.practice-answer {
+  display: none;
+  text-align: center;
+  width: 130px;
+  height: 39px;
+}
+
+.quiz-word{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 150px;
+}
+
+.quiz-word_2{
+  display: block;
+  padding-bottom: 60px;
+  font-size: 100px;
+}
+
+.quiz_2_padding{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.client-info{
+  display: block;
+  height: 120px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.quiz-btn{
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-default:active {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.quiz_player {
+  background-image: url("/static/audio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  visibility: hidden;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  border:#fff
+}
+
+.quiz_qplayer {
+  background-image: url("/static/audio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  border:#fff
+}
+
+.vowel-card{
+  border-style: solid;
+  background-color: var(--light-gray);
+  border-color: var(--accent-color);
+  border-radius: 0.5rem;
+  height: 300px;
+  line-height: 300px;
+  font-size: 56px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.vowel-display{
+  margin: 0px 50px;
+}
+
+.underline {
+  text-decoration: underline;
+}
